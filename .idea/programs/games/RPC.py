@@ -79,7 +79,8 @@ while True:
             print("player wins!")
             playerScore += 1
 
-    elif player == "spock" or player == "v":
+    elif player == "spock" or player == "vlizard" \
+                                        "":
         if computer == "paper":
             print("Computer wins!")
             computerScore += 1
