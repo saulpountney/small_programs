@@ -79,8 +79,7 @@ while True:
             print("player wins!")
             playerScore += 1
 
-    elif player == "spock" or player == "vlizard" \
-                                        "":
+    elif player == "spock" or player == "v":
         if computer == "paper":
             print("Computer wins!")
             computerScore += 1
@@ -98,3 +97,7 @@ while True:
     print("player: ", playerScore, "Computer: ", computerScore)
 
 print("Thanks for playing!")
+
+#    create a counter which applies to the computer choice this will trigger an increase in a percentage chance
+# value this will allow a greater chance of the computer beating the player if the player continuse to choose
+# the same option.
